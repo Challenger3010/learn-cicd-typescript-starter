@@ -41,7 +41,7 @@ jobs:
         run: npm ci
 
       - name: Check format
-        uses: npm run format:check
+        run: npm run format:check
 
       - name: Write format
-        uses: npm run format:write
+        run: npm run format:write
