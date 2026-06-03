@@ -43,5 +43,8 @@ jobs:
       - name: Check format
         run: npm run format:check
 
+      - name: Lint everything
+        run: npm run lint
+
       - name: Write format
         run: npm run format:write
